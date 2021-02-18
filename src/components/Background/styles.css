@@ -1,0 +1,21 @@
+.background .modules-home {
+  position: absolute;
+  height: 632px;
+  width: 663px;
+  background: url("../../assets/Modulos-Home.svg");
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+
+.box-contorno-home {
+  position: absolute;
+  width: 858px;
+  height: 750px;
+  z-index: -1;
+  left: -201px;
+  top: -143px;
+  border-radius: 50px;
+  border: 2px solid #0460D9; 
+  border-style: dashed;
+}

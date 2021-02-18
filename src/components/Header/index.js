@@ -1,14 +1,14 @@
 import React from 'react';
 
-import './Header.css';
+import './styles.css';
 
 import {ReactComponent as Logo} from '../../assets/Logo.svg';
 
 class Header extends React.Component {
   render(){
     return (
-      <div className="Header">
-        <div className="Logo">
+      <div className="header">
+        <div className="logo">
           <Logo/>
         </div>
         <div className="line"/>
