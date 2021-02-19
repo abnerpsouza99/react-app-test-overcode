@@ -13,6 +13,7 @@ class Background extends React.Component{
         </div>
         <div className="modules-home">
         </div>
+        <p>Siga-nos / Inst. / Fb. / Beh. / Git.</p>
       </div>
     )
   }

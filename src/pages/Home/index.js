@@ -10,6 +10,7 @@ import ECommerceIcon from '../../assets/Icon-E-commerce.svg';
 import SoftwareIcon from '../../assets/Icon-Software.svg';
 import SiteInstIcon from '../../assets/Icon-Site.svg';
 import HomeIcon from '../../assets/house-image.svg';
+import ArrowIcon from '../../assets/arrow-bottom.svg';
 
 const eCommerceDesc = "Sua loja online pronta para entregar o máximo de valor aos seus clientes.";
 const eCommerceAlt = "E-Commerce Icon";
@@ -55,6 +56,18 @@ class Home extends React.Component{
           <Card title="Software" description={softwareDesc} iconImg={SoftwareIcon} iconAlt={softwareAlt}/>
           <Card title="Site Institucional" description={siteInstDesc} iconImg={SiteInstIcon} iconAlt={siteInstAlt}/>
         </div>
+        <div className="footer">
+          <div className="left-footer">
+            <p>1</p>
+            <hr ></hr>
+            <p>5</p>
+          </div>
+          <div className="right-footer">
+            <img src={ArrowIcon} className="arrow-left" alt="Arrow Icon"/>
+            <img src={ArrowIcon} className="arrow-right" alt="Arrow Icon"/>
+          </div>
+        </div>
+
       </div>
     );
   }

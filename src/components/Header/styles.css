@@ -82,6 +82,7 @@
   width: 143px;
   height: 45px;
   background: #0460D9;
+  opacity: 0.6;
   color: #FFFFFF;
   font-family: 'Neue Machina';
   font-style: normal;
@@ -89,9 +90,11 @@
   font-size: 16px;
   padding: 14px 33px;
   border-radius: 5px;
-  
+  transition: 0.6s ease-in;
 }
 
 .start-button:hover{
   cursor: pointer;
+  opacity: 1;
+  transition: translate 1s ease-in-out;
 }
