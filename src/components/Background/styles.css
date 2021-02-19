@@ -1,10 +1,10 @@
 .background .modules-home {
   position: absolute;
-  height: 632px;
-  width: 663px;
-  background: url("../../assets/Modulos-Home.svg");
+  height: 100%;
+  width: 50%;
+  background: url("../../assets/Modulos-Home.svg") no-repeat;
   z-index: -1;
-  right: 0;
+  right: -5%;
   top: 0;
 }
 
@@ -13,8 +13,8 @@
   width: 858px;
   height: 750px;
   z-index: -1;
-  left: -201px;
-  top: -143px;
+  left: -10%;
+  top: -24%;
   border-radius: 50px;
   border: 2px solid #0460D9; 
   border-style: dashed;
